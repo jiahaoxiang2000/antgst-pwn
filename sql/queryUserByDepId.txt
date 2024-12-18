@@ -1,0 +1,6 @@
+GET https://web.antgst.com/antgst/sys/user/queryUserByDepId?id=a16ca6032b3745f095b80c510aba4af5&realname=test HTTP/1.1
+Host: web.antgst.com
+X-Access-Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzQ1MDQyMDksInVzZXJuYW1lIjoiU1M2NzgifQ.2PhL_Sg-ciyfXsp1t_DxmPli8f3PmQkIVrGD04498lc
+User-Agent: Apifox/1.0.0 (https://apifox.com)
+Accept: */*
+Connection: keep-alive
