@@ -1,0 +1,43 @@
+{
+    "success": true,
+    "message": "操作成功！",
+    "code": 0,
+    "result": {
+        "records": [
+            {
+                "addTime": "2023-03-13 08:00:30",
+                "gatewayCount": 0,
+                "remark": null,
+                "password": "702005&yf",
+                "windowSize": 0,
+                "ton": 3,
+                "countryCode": "0055",
+                "enable": 0,
+                "host": "101.132.222.2",
+                "systemType": null,
+                "id": 13,
+                "bindSize": 1,
+                "systemId": "702005",
+                "targetHost": "172.21.239.196",
+                "limitTextDigitalOtp": 0,
+                "npi": 1,
+                "accountType": 0,
+                "updateTime": "2023-03-13 08:00:30",
+                "useSsl": 0,
+                "businessManager": null,
+                "port": "28851",
+                "pollSenderId": null,
+                "sendType": 2,
+                "countryName": "巴西",
+                "account": "YMY_55"
+            }
+        ],
+        "total": 1,
+        "size": 30,
+        "current": 1,
+        "orders": [],
+        "searchCount": true,
+        "pages": 1
+    },
+    "timestamp": 1734610072953
+}

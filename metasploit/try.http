@@ -1,0 +1,8 @@
+GET https://web.antgst.com/antgst/actuator/httptrace HTTP/1.1
+Host: web.antgst.com
+X-Access-Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzQ1OTc3MDYsInVzZXJuYW1lIjoiZGV2X3lxIn0.9TfMdTgfFPvI3ta75-NC2mheYLLBVIjj25dSSK3tP2c
+User-Agent: Apifox/1.0.0 (https://apifox.com)
+Content-Type: application/json
+Accept: */*
+Host: web.antgst.com
+Connection: keep-alive
