@@ -53,3 +53,7 @@ management:
 FIXME: the `/actuator/metrics` and `/actuator/httptrace` is not authorized.
 
 by the `actuator/httptrace` can stole other user's `x-access-token`. then use the token to request by the other user.
+
+
+### Fastjson 1.2.56
+
