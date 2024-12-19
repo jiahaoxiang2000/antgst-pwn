@@ -1,5 +1,7 @@
 # Pwn antgst
 
+true ip is `161.117.236.154`
+
 ## Goal
 
 For get the linux device root access.
