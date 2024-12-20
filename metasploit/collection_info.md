@@ -28,6 +28,8 @@ this is a table for the version consideration.
 | --- | --- | --- |
 | nginx | 1.20.2 | |
 | jeecg-boot | 2.0.2 | |
+| Jackson | 2.9.8 | deserialization |
+| Logback | 1.2.3 | |
 | Apache Tomcat | 8.5.51 | |
 
 the `Apache Tomcat/8.5.51` is depended by the `Spring Boot`, so how to get the version of `Spring Boot`? Since you mentioned Tomcat 8.5.51, the likely Spring Boot version would be `2.1.x`. So the `jeecg-boot` version is <= `2.3.x`. by the project is start from `2019`, so the version is `v2.0.2` for our guess.
@@ -54,6 +56,9 @@ FIXME: the `/actuator/metrics` and `/actuator/httptrace` is not authorized.
 
 by the `actuator/httptrace` can stole other user's `x-access-token`. then use the token to request by the other user.
 
-
 ### Fastjson 1.2.56
 
+we try the fastjson 1.2.47 RCE, but failed. so we try the `1.2.56` version.su
+
+
+### 
