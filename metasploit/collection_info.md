@@ -26,11 +26,12 @@ this is a table for the version consideration.
 
 | service | version | note |
 | --- | --- | --- |
-| nginx | 1.20.2 | |
+| nginx | 1.20.2 | x |
 | jeecg-boot | 2.0.2 | |
-| Jackson | 2.9.8 | deserialization |
+| Jackson | 2.9.8 | deserialization x |
 | Logback | 1.2.3 | |
-| Apache Tomcat | 8.5.51 | |
+| shiro | 1.4.0 | y, `;` to bypass auth |
+| Apache Tomcat | 8.5.51 | x |
 
 the `Apache Tomcat/8.5.51` is depended by the `Spring Boot`, so how to get the version of `Spring Boot`? Since you mentioned Tomcat 8.5.51, the likely Spring Boot version would be `2.1.x`. So the `jeecg-boot` version is <= `2.3.x`. by the project is start from `2019`, so the version is `v2.0.2` for our guess.
 
@@ -60,5 +61,6 @@ by the `actuator/httptrace` can stole other user's `x-access-token`. then use th
 
 we try the fastjson 1.2.47 RCE, but failed. so we try the `1.2.56` version.su
 
+### Shiro 1.4.0
 
-### 
+have the auth bypass vulnerability. CVE-2020-11989, the reference is [here](https://mp.weixin.qq.com/s/yb6Tb7zSTKKmBlcNVz0MBA).
