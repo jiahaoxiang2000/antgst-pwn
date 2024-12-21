@@ -1,0 +1,1520 @@
+{
+    "url": "/sys/permission/getUserPermissionByToken?token=xx.xxx.(JWT)",
+    "allAuth": [
+        {
+            "action": "sms.otpPremium:departSelect",
+            "describe": "下拉搜索-公司",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "user:form:phone",
+            "describe": "手机号禁用",
+            "type": "2",
+            "status": "1"
+        },
+        {
+            "action": "log:list",
+            "describe": "日志查看 权限",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "sms.marketing:sendSenderId",
+            "describe": "输入框-senderId",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "userTableField:action",
+            "describe": "表格列-操作",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "user:frozenBatch",
+            "describe": "冻结/解冻 按钮",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "fsAccount.status:edit",
+            "describe": "话机启用选项",
+            "type": "2",
+            "status": "1"
+        },
+        {
+            "action": "userTableField:passwordTxt",
+            "describe": "表格列-密码",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "sms.optPremium:sendSenderId",
+            "describe": "输入框-senderId",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "sms.gateway.rate",
+            "describe": "显示网关发送成功率",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "sms.otpReguler:departSelect",
+            "describe": "下拉搜索-公司",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "user:edit",
+            "describe": "修改用户",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "sms.notify:departSelect",
+            "describe": "下拉搜索-公司",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "user:add",
+            "describe": "添加用户按钮",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "user:changPassword",
+            "describe": "修改密码 权限",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "sms.notify:sendSenderId",
+            "describe": "输入框-senderId",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "user:delete",
+            "describe": "操作按钮-删除",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "sms.marketing:departSelect",
+            "describe": "下拉搜索-公司",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "log:delete",
+            "describe": "日志删除 权限",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "telqtele:send",
+            "describe": "测试工具",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "fsAccount.password:edit",
+            "describe": "话机密码重置",
+            "type": "1",
+            "status": "1"
+        },
+        {
+            "action": "fsAccount:add",
+            "describe": "话机添加",
+            "type": "1",
+            "status": "1"
+        }
+    ],
+    "auth": [
+        {
+            "action": "sms.otpPremium:departSelect",
+            "describe": "下拉搜索-公司",
+            "type": "1"
+        },
+        {
+            "action": "sms.marketing:sendSenderId",
+            "describe": "输入框-senderId",
+            "type": "1"
+        },
+        {
+            "action": "userTableField:action",
+            "describe": "表格列-操作",
+            "type": "1"
+        },
+        {
+            "action": "sms.optPremium:sendSenderId",
+            "describe": "输入框-senderId",
+            "type": "1"
+        },
+        {
+            "action": "sms.notify:departSelect",
+            "describe": "下拉搜索-公司",
+            "type": "1"
+        },
+        {
+            "action": "user:add",
+            "describe": "添加用户按钮",
+            "type": "1"
+        },
+        {
+            "action": "sms.notify:sendSenderId",
+            "describe": "输入框-senderId",
+            "type": "1"
+        },
+        {
+            "action": "sms.marketing:departSelect",
+            "describe": "下拉搜索-公司",
+            "type": "1"
+        },
+        {
+            "action": "telqtele:send",
+            "describe": "测试工具",
+            "type": "1"
+        }
+    ],
+    "menu": [
+        {
+            "redirect": null,
+            "path": "/home/Home",
+            "component": "home/Home",
+            "route": "1",
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "home",
+                "title": "首页"
+            },
+            "name": "home-Home",
+            "id": "25c2a7500f649c4e59b3c54c5759a9a3"
+        },
+        {
+            "redirect": null,
+            "path": "/czKnB12O",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/fPjMD4hT",
+                    "component": "layouts/RouteView",
+                    "route": "1",
+                    "children": [
+                        {
+                            "path": "/voip/callRecord/list",
+                            "component": "voip/call/CallRecordList",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "通话记录"
+                            },
+                            "name": "voip-callRecord-list",
+                            "id": "4f18f1eb0fd50279d9bd048a1c136936"
+                        },
+                        {
+                            "path": "/CallStatistics",
+                            "component": "voip/call/CallStatistics",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "话务统计"
+                            },
+                            "name": "CallStatistics",
+                            "id": "320022ba137da567930550a33d2f587d"
+                        }
+                    ],
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "通话管理"
+                    },
+                    "name": "fPjMD4hT",
+                    "id": "a8fa24866a151a1c76048d6be23866ac"
+                },
+                {
+                    "path": "/q9sSYL4D",
+                    "component": "layouts/RouteView",
+                    "route": "1",
+                    "children": [
+                        {
+                            "path": "/voip/ivrFile/list",
+                            "component": "voip/ivrCall/IvrCallFileList",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "IVR文件管理"
+                            },
+                            "name": "voip-ivrFile-list",
+                            "id": "dfec30354c4deed6b7171d1d8d757b1b"
+                        },
+                        {
+                            "path": "/voip/ivrCallQueue/list",
+                            "component": "voip/ivrCall/IvrCallQueueList",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "IVR外呼任务"
+                            },
+                            "name": "voip-ivrCallQueue-list",
+                            "id": "f081048d7de5666bbb3d8c1d6b3687f4"
+                        },
+                        {
+                            "path": "/voip/ivrCall/list",
+                            "component": "voip/ivrCall/IvrCallList",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "IVR外呼记录"
+                            },
+                            "name": "voip-ivrCall-list",
+                            "id": "a4ab96cf6207458bebee761e4809f75f"
+                        },
+                        {
+                            "path": "/voip/ivrCallStatistics/list",
+                            "component": "voip/ivrCall/IvrCallStatistics",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "IVR外呼统计"
+                            },
+                            "name": "voip-ivrCallStatistics-list",
+                            "id": "cbc5920ade3467b80d275a4776e1ef52"
+                        },
+                        {
+                            "path": "/voip/ivrCallTiming",
+                            "component": "voip/ivrCall/IvrCallTimingList",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "IVR定时任务"
+                            },
+                            "name": "voip-ivrCallTiming",
+                            "id": "59454d47762efbaefcc708d7cef38011"
+                        }
+                    ],
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "IVR外呼"
+                    },
+                    "name": "q9sSYL4D",
+                    "id": "7790833b4ecdd1b0b82e913f84bf8cd4"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "phone",
+                "title": "话务管理"
+            },
+            "name": "czKnB12O",
+            "id": "982678d0eb56b3ca540d783fb981ad56"
+        },
+        {
+            "redirect": null,
+            "path": "/vos",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/vosCustomerList",
+                    "component": "voip/VosCustomer/VosCustomerList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "账户管理"
+                    },
+                    "name": "vosCustomerList",
+                    "id": "411fe8dfdc9aceb4eb7e5c7a8f19c8af"
+                },
+                {
+                    "path": "/vosGatewayList",
+                    "component": "voip/VosGateway/VosGatewayList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "落地网关"
+                    },
+                    "name": "vosGatewayList",
+                    "id": "0d0fbf35b0387d95ff35d845ee18c43c"
+                },
+                {
+                    "path": "/vosFeeRateGroupList",
+                    "component": "voip/VosFeeRateGroup/VosFeeRateGroupList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "费率组"
+                    },
+                    "name": "vosFeeRateGroupList",
+                    "id": "ed341fc5997396c67f1366ee334f70b8"
+                },
+                {
+                    "path": "/vosFeeRateList",
+                    "component": "voip/VosFeeRateGroup/VosFeeRateList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "费率"
+                    },
+                    "name": "vosFeeRateList",
+                    "id": "a512736b101fe5aec54ebf0e4ca8fe99"
+                },
+                {
+                    "path": "/vosGatewayCrossingAreaAnalysisList",
+                    "component": "voip/VosGatewayCrossingAreaAnalysis/VosGatewayCrossingAreaAnalysisList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "网关交叉地区分析"
+                    },
+                    "name": "vosGatewayCrossingAreaAnalysisList",
+                    "id": "ac621ede549dc73c2cb94ab6b8c84bfa"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "search",
+                "title": "VOS"
+            },
+            "name": "vos",
+            "id": "e5cd49fa66753498268de299b8301501"
+        },
+        {
+            "redirect": null,
+            "path": "/recharge",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/SysCustomerPay",
+                    "component": "system/pay/SysCustomerPay",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "创建订单"
+                    },
+                    "name": "SysCustomerPay",
+                    "id": "92ca35e674e3673d6348c3c7123ff448"
+                },
+                {
+                    "path": "/SysCustomerPayRecordList",
+                    "component": "system/pay/SysCustomerPayRecordList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "充值记录"
+                    },
+                    "name": "SysCustomerPayRecordList",
+                    "id": "f572e28a983a1f3b5ae32988257e2a0c"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "pay-circle",
+                "title": "自助充值"
+            },
+            "name": "recharge",
+            "id": "ffbece16b12541925013b52e0d9fdf0f"
+        },
+        {
+            "redirect": null,
+            "path": "/F4YXtXis",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/fWv4NPmq",
+                    "component": "sms/marketing/OutboxList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "发送队列"
+                    },
+                    "name": "fWv4NPmq",
+                    "id": "1204960528778797057"
+                },
+                {
+                    "path": "/ZdR0Pqyn",
+                    "component": "sms/marketing/TimingList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "定时任务"
+                    },
+                    "name": "ZdR0Pqyn",
+                    "id": "1204966002832056322"
+                },
+                {
+                    "path": "/mIe3wCnq",
+                    "component": "sms/marketing/SendRecordList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "发送记录"
+                    },
+                    "name": "mIe3wCnq",
+                    "id": "1204964961071800322"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "block",
+                "title": "营销短信"
+            },
+            "name": "F4YXtXis",
+            "id": "1204959112769183745"
+        },
+        {
+            "redirect": null,
+            "path": "/u73uYa1y",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/rqdYiiuL",
+                    "component": "sms/notify/OutboxList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "发送队列"
+                    },
+                    "name": "rqdYiiuL",
+                    "id": "4962f98da2b601793799b97b58477f26"
+                },
+                {
+                    "path": "/K0TU8HIv",
+                    "component": "sms/notify/TimingList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "定时任务"
+                    },
+                    "name": "K0TU8HIv",
+                    "id": "dfad1c90d5a71bd2325b1a7cb670cbde"
+                },
+                {
+                    "path": "/eP45MwUP",
+                    "component": "sms/notify/SendRecordList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "发送记录"
+                    },
+                    "name": "eP45MwUP",
+                    "id": "c63409b3a5a17f78be4f86dbdb14a04b"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "bell",
+                "title": "通知短信"
+            },
+            "name": "u73uYa1y",
+            "id": "563e31c46e107acf7a9a2af6332f4eb6"
+        },
+        {
+            "redirect": null,
+            "path": "/yYY73dod",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/fv4b6vNs",
+                    "component": "sms/otpPremium/SendRecordList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "发送记录"
+                    },
+                    "name": "fv4b6vNs",
+                    "id": "3db94b7d5c986d9b142c09c8431f1d8d"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "api",
+                "title": "验证短信"
+            },
+            "name": "yYY73dod",
+            "id": "f17f8746fb319efd5b01a7a9b7f7611b"
+        },
+        {
+            "redirect": null,
+            "path": "/Qr9VMMR9",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/Lds136j8",
+                    "component": "voip/voiceCode/VerifyCode",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "发送记录"
+                    },
+                    "name": "Lds136j8",
+                    "id": "2edf02db8503496b0a4767f3c7620d02"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "phone",
+                "title": "语音验证码"
+            },
+            "name": "Qr9VMMR9",
+            "id": "30d7db5bee088edbfa7dfcc2564cf9ec"
+        },
+        {
+            "redirect": null,
+            "path": "/UdAdnHXw",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/llqvv1ms",
+                    "component": "sms/numberDetection/nboutbox/NumberDetectionOutboxList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "筛选队列"
+                    },
+                    "name": "llqvv1ms",
+                    "id": "4c440b19d4ff1c1643b23cbe995d5619"
+                },
+                {
+                    "path": "/UWSx1%Kg",
+                    "component": "sms/numberDetection/channel/OutboxList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "筛号队列"
+                    },
+                    "name": "UWSx1%Kg",
+                    "id": "a1bbaeb2ee8ea5c24af3d5489f3263e0"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "shake",
+                "title": "号码筛选"
+            },
+            "name": "UdAdnHXw",
+            "id": "a0ea827f6a7c92f1903779488fad9baa"
+        },
+        {
+            "redirect": null,
+            "path": "/agnet",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/AgentOverview",
+                    "component": "system/Agent/AgentOverview",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "代理商总览"
+                    },
+                    "name": "AgentOverview",
+                    "id": "fa3837406f27f69f50d508d6a3c2b032"
+                },
+                {
+                    "path": "/AgentGatewayGroupList",
+                    "component": "system/AgentGatewayGroupList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "代理商网关组"
+                    },
+                    "name": "AgentGatewayGroupList",
+                    "id": "0c83dbbf6a41d3db6c0e7a2d64287234"
+                },
+                {
+                    "path": "/MNSAJ1",
+                    "component": "layouts/RouteView",
+                    "route": "1",
+                    "children": [
+                        {
+                            "path": "/AdminUserAuthorization",
+                            "component": "system/Agent/AdminUserAuthorization",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "开户授权"
+                            },
+                            "name": "AdminUserAuthorization",
+                            "id": "74ed62bb529cebeb95e2a38aa300c557"
+                        },
+                        {
+                            "path": "/AdminGatewayAuthorization",
+                            "component": "system/Agent/AdminGatewayAuthorization",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "网关授权"
+                            },
+                            "name": "AdminGatewayAuthorization",
+                            "id": "1931100f2501ce5492095815bdd2ef40"
+                        }
+                    ],
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "授权管理"
+                    },
+                    "name": "MNSAJ1",
+                    "id": "c3c1d21a012f3d14233ad136c557f092"
+                },
+                {
+                    "path": "/AgentUser",
+                    "component": "system/Agent/AgentUser",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "客户总览"
+                    },
+                    "name": "AgentUser",
+                    "id": "a0967b4757f3124a5fc1f5fd0621ff68"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "usergroup-add",
+                "title": "代理商管理"
+            },
+            "name": "agnet",
+            "id": "b345b3667ad556fae75545e0adea7854"
+        },
+        {
+            "redirect": null,
+            "path": "/sjdkajdak",
+            "component": "sms/smsApiSubmitFail/SmsApiSubmitFailList",
+            "route": "1",
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "database",
+                "title": "HTTP失败列表"
+            },
+            "name": "sjdkajdak",
+            "id": "0452eead8495839549f0df84f0815e4c"
+        },
+        {
+            "redirect": null,
+            "path": "/s8RIlpBa",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/NwDCEd7a",
+                    "component": "sms/marketing/GatewayErrorStatistics",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "营销网关失败统计"
+                    },
+                    "name": "NwDCEd7a",
+                    "id": "66504646d568a999abeaa1b37be85199"
+                },
+                {
+                    "path": "/jroZE0SG",
+                    "component": "sms/marketing/Statistics",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "营销短信"
+                    },
+                    "name": "jroZE0SG",
+                    "id": "1204981205959319554"
+                },
+                {
+                    "path": "/g14v19pH",
+                    "component": "sms/notify/Statistics",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "通知短信"
+                    },
+                    "name": "g14v19pH",
+                    "id": "817d43f3b7d517d4ffc9298b92fa038c"
+                },
+                {
+                    "path": "/beFb15IQ",
+                    "component": "sms/otpPremium/Statistics",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "验证短信"
+                    },
+                    "name": "beFb15IQ",
+                    "id": "29232450cc41bdae704002da17aeeb91"
+                },
+                {
+                    "path": "/dhaljhhh",
+                    "component": "sms/otpPremium/SmsOtpBackFillRateList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "验证码回填"
+                    },
+                    "name": "dhaljhhh",
+                    "id": "5461bcca6169e46340c73d4a41484fec"
+                },
+                {
+                    "path": "/xGZi566O",
+                    "component": "voip/voiceCode/VerifyCodeStatistics",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "语音验证码"
+                    },
+                    "name": "xGZi566O",
+                    "id": "7925582cfd8f2f5ae55f552546f74cb6"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "bar-chart",
+                "title": "数据统计"
+            },
+            "name": "s8RIlpBa",
+            "id": "7eb35dd1169428896c6eefc5b4703ffa"
+        },
+        {
+            "redirect": null,
+            "path": "/GS8Ka766",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/WpE6XgNB",
+                    "component": "system/FsAccountList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "话机管理"
+                    },
+                    "name": "WpE6XgNB",
+                    "id": "92efa2dd9fe7597171992bd09a3c27e6"
+                },
+                {
+                    "path": "/BapPoC2x",
+                    "component": "business/SmsSendTemplate",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "模版管理"
+                    },
+                    "name": "BapPoC2x",
+                    "id": "22262f3f730e9cc6cf42b7cde556c46e"
+                },
+                {
+                    "path": "/y44u1nqp",
+                    "component": "business/IpWhiteList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "白名单管理"
+                    },
+                    "name": "y44u1nqp",
+                    "id": "308ed7a7074b95cda54df5bb68e5597e"
+                },
+                {
+                    "path": "/CRDgM030",
+                    "component": "business/channel/ConfigCallbackList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "回调管理"
+                    },
+                    "name": "CRDgM030",
+                    "id": "20ad0e88eadf6ac2ba207b99bfa99580"
+                },
+                {
+                    "path": "/dgv1qgef",
+                    "component": "business/SysDepartPercentageList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "扣量管理"
+                    },
+                    "name": "dgv1qgef",
+                    "id": "d18d767d1eab39a1871c643080211a44"
+                },
+                {
+                    "path": "/JSNW12",
+                    "component": "system/SysUserMnpList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "用户MNP配置"
+                    },
+                    "name": "JSNW12",
+                    "id": "431b24a35593539ab0ba3aa8e31c3cf0"
+                },
+                {
+                    "path": "/0#VkN2",
+                    "component": "business/SmsRuleList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "短信规则管理"
+                    },
+                    "name": "0#VkN2",
+                    "id": "25f0311e9c4b14e7dfc61c01924873e0"
+                },
+                {
+                    "path": "/sLX@Gw$a",
+                    "component": "business/SensitiveWordReplace",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "敏感词替换"
+                    },
+                    "name": "sLX@Gw$a",
+                    "id": "116961870732540666cbf4b29e5ad9d4"
+                },
+                {
+                    "path": "/G!IeNqlq",
+                    "component": "business/SmsRandomChar",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "短信字符配置"
+                    },
+                    "name": "G!IeNqlq",
+                    "id": "6d5c4e730982b8a675199904350fecfc"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "folder-open",
+                "title": "业务管理"
+            },
+            "name": "GS8Ka766",
+            "id": "c7203fc9d8acebc3a6338fc482063d2b"
+        },
+        {
+            "redirect": null,
+            "path": "/DvP2xbha",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/6Wf$E$ej",
+                    "component": "system/GoogleAuthentication",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "谷歌验证"
+                    },
+                    "name": "6Wf$E$ej",
+                    "id": "f7e26e682e115c2278a4cc5fc976eb26"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "safety-certificate",
+                "title": "安全中心"
+            },
+            "name": "DvP2xbha",
+            "id": "f53b63af5ae5730a6e0d0477a2c72191"
+        },
+        {
+            "redirect": null,
+            "path": "/PO1Jwua9",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/Lr7fbF4h",
+                    "component": "vss/fund/VoipFundFlowQueue",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "话务充值"
+                    },
+                    "name": "Lr7fbF4h",
+                    "id": "6fed1421b88b2a8f948356e92de1e12f"
+                },
+                {
+                    "path": "/tXgwBS1E",
+                    "component": "vss/fund/FundFlowQueue",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "短信充值"
+                    },
+                    "name": "tXgwBS1E",
+                    "id": "caffa602e13a2c9c0cefad60b9a4aace"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "shopping-cart",
+                "title": "充值管理"
+            },
+            "name": "PO1Jwua9",
+            "id": "e3c1603501755d17f3d0bc9980c6fb52"
+        },
+        {
+            "redirect": null,
+            "path": "/d2cQHMTb",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/rf1lNsex",
+                    "component": "vss/fund/FundFlow",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "短信收支明细"
+                    },
+                    "name": "rf1lNsex",
+                    "id": "98c1a67b963372de6262f19791f8be40"
+                },
+                {
+                    "path": "/mOzCVVy2",
+                    "component": "vss/fund/FundFlowDay",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "短信费用账单"
+                    },
+                    "name": "mOzCVVy2",
+                    "id": "d18faacbca3193c4f7c39800523dd60b"
+                },
+                {
+                    "path": "/vx62EIdZ",
+                    "component": "vss/fund/VoipFundFlow",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "话务收支明细"
+                    },
+                    "name": "vx62EIdZ",
+                    "id": "b8e4dc49c4b71e6b5893f629b788b95b"
+                },
+                {
+                    "path": "/VmBPkWq5",
+                    "component": "vss/fund/VoipFundFlowDay",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "话务费用账单"
+                    },
+                    "name": "VmBPkWq5",
+                    "id": "8f04c666d93f8ecca1c0deeb004708d2"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "pay-circle",
+                "title": "费用账单"
+            },
+            "name": "d2cQHMTb",
+            "id": "3eef5e2bf1d106d758cfecf0b3b57a84"
+        },
+        {
+            "redirect": null,
+            "path": "/A2nJZS4x",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/LRV4zufL",
+                    "component": "system/FeeRateGroupList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "短信费率管理\t"
+                    },
+                    "name": "LRV4zufL",
+                    "id": "8cdea8766c90d3c89aa6745112abefa2"
+                },
+                {
+                    "path": "/2^h8Qh4D",
+                    "component": "system/NumberDetectionFeerateGroupList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "号码筛选费率"
+                    },
+                    "name": "2^h8Qh4D",
+                    "id": "b01437f250a8d0a0e3bed19fbfabacea"
+                },
+                {
+                    "path": "/IfmJUMz1",
+                    "component": "system/VoipFeeRateGroupList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "话务费率管理"
+                    },
+                    "name": "IfmJUMz1",
+                    "id": "05d149d717e19c39616db4180457b22e"
+                },
+                {
+                    "path": "/KDKYxDv8",
+                    "component": "system/VoipAutoIvrFeeRateGroupList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "自动IVR费率管理"
+                    },
+                    "name": "KDKYxDv8",
+                    "id": "64f0e3e2484db7ce0666dfb48c7c139e"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "deployment-unit",
+                "title": "费率管理"
+            },
+            "name": "A2nJZS4x",
+            "id": "39e1d86c909360288fdf68add6182496"
+        },
+        {
+            "redirect": null,
+            "path": "/mJHilu4W",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/sms/marketing/monitoring/queryList",
+                    "component": "sms/monitor/MarketingMonitor",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "营销短信监控"
+                    },
+                    "name": "sms-marketing-monitoring-queryList",
+                    "id": "db1377e9a3f2ce97f8ac4c4a4c277898"
+                },
+                {
+                    "path": "/sms/notify/monitoring/queryList",
+                    "component": "sms/monitor/NotifyMonitor",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "通知短信监控"
+                    },
+                    "name": "sms-notify-monitoring-queryList",
+                    "id": "6509c8cc3e7e0f964f5aa349f90bcefa"
+                },
+                {
+                    "path": "/sms/otp/monitor/queryList",
+                    "component": "sms/monitor/OtpMonitor",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "OTP验证短信监控"
+                    },
+                    "name": "sms-otp-monitor-queryList",
+                    "id": "438347fc5c58c6d26735b537615ced93"
+                },
+                {
+                    "path": "/sms/senderId/monitoring/otp/queryList",
+                    "component": "sms/monitor/OtpSenderidMonitor",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "OTP短信SenderId监控"
+                    },
+                    "name": "sms-senderId-monitoring-otp-queryList",
+                    "id": "b593af7fb8427e643e0af0bcd35abe9e"
+                },
+                {
+                    "path": "/sms/otp/monitoring/queryHourList",
+                    "component": "sms/monitor/OtpHourMonitor",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "OTP短信小时监控"
+                    },
+                    "name": "sms-otp-monitoring-queryHourList",
+                    "id": "6c00d32d27aa79403f3a4e3b53e5d02a"
+                },
+                {
+                    "path": "/sms/senderId/monitoring/otp/queryHourList",
+                    "component": "sms/monitor/OtpSenderidHourMonitor",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "OTP sender小时监控"
+                    },
+                    "name": "sms-senderId-monitoring-otp-queryHourList",
+                    "id": "a3e2c4b59a18aa4b2e3159b328236b09"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "radar-chart",
+                "title": "数据监控"
+            },
+            "name": "mJHilu4W",
+            "id": "379b8f7b1930714b509efa398617310c"
+        },
+        {
+            "redirect": null,
+            "path": "/LjqOkqd6",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/0mnzPmPa",
+                    "component": "system/LogList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "日志管理"
+                    },
+                    "name": "0mnzPmPa",
+                    "id": "58857ff846e61794c69208e9d3a85466"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "dashboard",
+                "title": "系统监控"
+            },
+            "name": "LjqOkqd6",
+            "id": "08e6b9dc3c04489c8e1ff2ce6f105aa4"
+        },
+        {
+            "redirect": null,
+            "path": "/CqIyz4E8",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/5IOFgFza",
+                    "component": "system/UserList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "用户管理"
+                    },
+                    "name": "5IOFgFza",
+                    "id": "3f915b2769fc80648e92d04e84ca059d"
+                },
+                {
+                    "path": "/Mqa3XMnJ",
+                    "component": "system/DepartList2",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "公司管理"
+                    },
+                    "name": "Mqa3XMnJ",
+                    "id": "45c966826eeff4c99b8f8ebfe74511fc"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "setting",
+                "title": "系统管理"
+            },
+            "name": "CqIyz4E8",
+            "id": "d7d6e2e4e2934f2c9385a623fd98c6f3"
+        },
+        {
+            "redirect": null,
+            "path": "/Uk1JMua8",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/Bg7kdfuH",
+                    "component": "sms/smsGateway/RoutingList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "短信路由管理"
+                    },
+                    "name": "Bg7kdfuH",
+                    "id": "5cb4ed0076898ef20c7e1deab44fead4"
+                },
+                {
+                    "path": "/TestToolRecord",
+                    "component": "sms/smsGateway/RountingTestToolRecordList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "测试工具结果"
+                    },
+                    "name": "TestToolRecord",
+                    "id": "0b6a078d0dd0492dacb86010bdaf6bed"
+                },
+                {
+                    "path": "/Ouduh5ha",
+                    "component": "system/SmsGatewayChannelConfigList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "用户网关配置"
+                    },
+                    "name": "Ouduh5ha",
+                    "id": "8a54115d302aa0be4525bae36d638d90"
+                },
+                {
+                    "path": "/cnjay",
+                    "component": "layouts/RouteView",
+                    "route": "1",
+                    "children": [
+                        {
+                            "path": "/msjwk",
+                            "component": "gateway/gatewayMix/SysSmsGatewayMixMapping",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "混合网关配置"
+                            },
+                            "name": "msjwk",
+                            "id": "97e9f8f765ef8e43e9a2fdff799003f5"
+                        },
+                        {
+                            "path": "/nchae",
+                            "component": "gateway/gatewayMix/SysSmsGatewayMix",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "混合网关方案配置"
+                            },
+                            "name": "nchae",
+                            "id": "f17027645c1c30cf4cbef3be9c889507"
+                        },
+                        {
+                            "path": "/mskwu",
+                            "component": "gateway/gatewayMix/SysSmsGatewayMixConfig",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": " 混合网关规则配置 "
+                            },
+                            "name": "mskwu",
+                            "id": "14dec00871a3290e4f06e8c98dcc85ea"
+                        }
+                    ],
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "混合网关配置"
+                    },
+                    "name": "cnjay",
+                    "id": "46330ee35ebcb2721f4debb418aa6d6d"
+                },
+                {
+                    "path": "/V9ubrSd0",
+                    "component": "layouts/RouteView",
+                    "route": "1",
+                    "children": [
+                        {
+                            "path": "/u3uYhC1M",
+                            "component": "sms/smsUserGateway/SmsUserGateway",
+                            "route": "1",
+                            "meta": {
+                                "keepAlive": false,
+                                "internalOrExternal": false,
+                                "title": "用户级别"
+                            },
+                            "name": "u3uYhC1M",
+                            "id": "c289e34578253f4ea3697cb222ee0b03"
+                        }
+                    ],
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "路由匹配管理"
+                    },
+                    "name": "V9ubrSd0",
+                    "id": "a43376972b3f67f9a934d347da3f06d6"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "global",
+                "title": "网关管理"
+            },
+            "name": "Uk1JMua8",
+            "id": "18a7ac40ae6ef652636faf3678fbec74"
+        },
+        {
+            "redirect": null,
+            "path": "/sms/smpp",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/isystem/SmppUserList",
+                    "component": "system/SmppUserList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "对接网关"
+                    },
+                    "name": "isystem-SmppUserList",
+                    "id": "76f30458828561d5ba1d9ef9e5f0fbf6"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "contacts",
+                "title": "SMPP网关管理"
+            },
+            "name": "sms-smpp",
+            "id": "2a27fe8c88d20ad419f6e770fa5e3c82"
+        },
+        {
+            "redirect": null,
+            "path": "/w8h6LfUI",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+                {
+                    "path": "/contactUs",
+                    "component": "system/ContactUs",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "联系我们"
+                    },
+                    "name": "contactUs",
+                    "id": "1dcbd7daac6f6aa9a56a4fa220641ee6"
+                },
+                {
+                    "path": "/isps/userAnnouncement",
+                    "component": "system/UserAnnouncementList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "我的消息"
+                    },
+                    "name": "isps-userAnnouncement",
+                    "id": "5eb91fd82c9651b5614edd8015f0e6e1"
+                },
+                {
+                    "path": "/WZtn3lsk",
+                    "component": "system/SysContactList",
+                    "route": "1",
+                    "meta": {
+                        "keepAlive": false,
+                        "internalOrExternal": false,
+                        "title": "通话簿管理"
+                    },
+                    "name": "WZtn3lsk",
+                    "id": "d954f67c6a42f25af3414c2dcfbbd303"
+                }
+            ],
+            "meta": {
+                "keepAlive": false,
+                "internalOrExternal": false,
+                "icon": "user",
+                "title": "个人页"
+            },
+            "name": "w8h6LfUI",
+            "id": "717f6bee46f44a3897eca9abd6e2ec44"
+        }
+    ]
+}

@@ -1,0 +1,302 @@
+[
+    {
+        "createBy": "admin",
+        "createTime": "2024-02-19 10:49:51",
+        "updateBy": null,
+        "roleCode": "sys_agent",
+        "roleName": "代理商",
+        "description": null,
+        "updateTime": null,
+        "id": "0627a1aa0f30f7164e6b1892e1bba57a"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-04-19 23:26:50",
+        "updateBy": null,
+        "roleCode": "sms-mk",
+        "roleName": "短信-营销",
+        "description": "只开短信营销类型",
+        "updateTime": null,
+        "id": "082678e5d9270824353a223a6727e009"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-11-10 10:06:20",
+        "updateBy": null,
+        "roleCode": "business_administrator",
+        "roleName": "商务",
+        "description": "仅供商务人员使用",
+        "updateTime": null,
+        "id": "158b58d2fa9db9d41e9ab99ca88f1099"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-07-02 11:39:40",
+        "updateBy": null,
+        "roleCode": "sms-contain-notice",
+        "roleName": "短信-包含通知短信",
+        "description": "短信-包含通知短信",
+        "updateTime": null,
+        "id": "2974a99cf0431ce82c77b603e05ad91d"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2023-04-02 08:57:51",
+        "updateBy": null,
+        "roleCode": "yjj_dev_administrator",
+        "roleName": "开发-YJJ",
+        "description": "YJJ拥有的角色",
+        "updateTime": null,
+        "id": "403312fbbdc45c8a62a4385baf00d9fc"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-03-23 10:45:51",
+        "updateBy": null,
+        "roleCode": "sms-notify-otp",
+        "roleName": "短信-通知-验证码",
+        "description": "开通知和验证码类型",
+        "updateTime": null,
+        "id": "40559fae4809a897a381b0911e72fbd7"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-04-19 23:44:08",
+        "updateBy": null,
+        "roleCode": "sms-otp",
+        "roleName": "短信-验证码",
+        "description": "只开短信验证码",
+        "updateTime": null,
+        "id": "618906200161e2b8858b1dcc027187c0"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2023-06-12 12:12:00",
+        "updateBy": null,
+        "roleCode": "sys_om__administrator",
+        "roleName": "运营",
+        "description": "运营人员权限",
+        "updateTime": null,
+        "id": "63af926143cabcde5f57ec7dc9a6337e"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-12-01 21:10:58",
+        "updateBy": null,
+        "roleCode": "sms_number_detection",
+        "roleName": "短信-筛号",
+        "description": "短信角色+号码筛选角色",
+        "updateTime": null,
+        "id": "6838435eb17c69e15217fa2d463f1f84"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2023-05-15 18:28:55",
+        "updateBy": null,
+        "roleCode": "finance_administrator",
+        "roleName": "财务人员",
+        "description": "财务拥有的统一角色",
+        "updateTime": null,
+        "id": "721f2d6f0434cb82a44bd1b81280bfa6"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-11-10 10:51:46",
+        "updateBy": null,
+        "roleCode": "dev_administrator",
+        "roleName": "开发",
+        "description": "仅供开发人员使用",
+        "updateTime": null,
+        "id": "743e6e95d9a4001e46a78c3606dcb15b"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2023-04-03 10:22:06",
+        "updateBy": null,
+        "roleCode": "CYeon_administrator",
+        "roleName": "商务-CYeon",
+        "description": "CYeon拥有的角色",
+        "updateTime": null,
+        "id": "7a2e1f6d5c71df7da3683bfd1e11df94"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2023-08-07 15:01:51",
+        "updateBy": "admin",
+        "roleCode": "only_reportchecking",
+        "roleName": "仅数据查询",
+        "description": "仅数据查询，后台无法提交短信",
+        "updateTime": "2023-08-07 15:11:43",
+        "id": "836dd10b50217f69d69a05694119cc7f"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-12-14 11:52:44",
+        "updateBy": null,
+        "roleCode": "sms-softphone-ivr",
+        "roleName": "短信-话机-IVR",
+        "description": "短信所有角色+话机+IVR",
+        "updateTime": null,
+        "id": "84e362aa44ff63a84f482c0160371051"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-11-19 10:58:08",
+        "updateBy": null,
+        "roleCode": "sys_voip",
+        "roleName": "话务",
+        "description": "话务角色",
+        "updateTime": null,
+        "id": "884d5e583bafa411bae8c42ac69f37d7"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-04-01 20:45:49",
+        "updateBy": null,
+        "roleCode": "yunban",
+        "roleName": "云伴",
+        "description": "yunban",
+        "updateTime": null,
+        "id": "94484e6bbf6e48097b711621944d9be2"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-10-24 09:36:07",
+        "updateBy": "admin",
+        "roleCode": "lt_administrator",
+        "roleName": "商务总监",
+        "description": "商务总监-充值权限不清",
+        "updateTime": "2023-12-13 10:50:38",
+        "id": "97bce13017bbd7aaed2d10bea251d079"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2020-09-06 01:59:31",
+        "updateBy": "admin",
+        "roleCode": "sms",
+        "roleName": "短信",
+        "description": "短信-不包含通知短信",
+        "updateTime": "2021-07-02 11:52:11",
+        "id": "995ce292737eeda90c2e65e1674753cc"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2024-03-08 17:43:13",
+        "updateBy": null,
+        "roleCode": "sms-mk-no",
+        "roleName": "短信-营销-无联系方式",
+        "description": null,
+        "updateTime": null,
+        "id": "a153ecab619fa6668fc6b9409ac82f4a"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-04-19 23:46:08",
+        "updateBy": null,
+        "roleCode": "sms-notice",
+        "roleName": "短信-通知",
+        "description": "只发通知  定制dnd内容",
+        "updateTime": null,
+        "id": "aed568709e75db09dab1a04702e348ac"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2023-08-18 11:45:37",
+        "updateBy": null,
+        "roleCode": "price_read",
+        "roleName": "价格查看",
+        "description": null,
+        "updateTime": null,
+        "id": "b42082a032eb99953b6b447b0e34f633"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2024-04-28 18:06:49",
+        "updateBy": null,
+        "roleCode": "sys_deposit",
+        "roleName": "自助充值",
+        "description": null,
+        "updateTime": null,
+        "id": "c2db68637420a1279feac741b073b070"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-07-03 23:27:05",
+        "updateBy": null,
+        "roleCode": "sms_voice",
+        "roleName": "短信-语音验证码",
+        "description": "短信-带语音验证码-不包含通知短信",
+        "updateTime": null,
+        "id": "ccd9ad3e3877c662f74427898acc08bc"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2024-02-21 15:13:50",
+        "updateBy": null,
+        "roleCode": "agent_customer",
+        "roleName": "代理商客户",
+        "description": "agent_customer",
+        "updateTime": null,
+        "id": "cde63bc454d8210bb6413149f1a1e98b"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-11-03 23:03:13",
+        "updateBy": "admin",
+        "roleCode": "voip_dev_administrator",
+        "roleName": "话务开发人员",
+        "description": "话务开发人员拥有的角色",
+        "updateTime": "2022-11-16 21:40:16",
+        "id": "e0ac5024e45780c0175b0c840bedc798"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-12-01 21:09:32",
+        "updateBy": null,
+        "roleCode": "number_detection",
+        "roleName": "号码筛选",
+        "description": "号码筛选角色",
+        "updateTime": null,
+        "id": "f5632353bba589ccc63b740c74ccbe5f"
+    },
+    {
+        "createBy": null,
+        "createTime": "2018-12-21 18:03:39",
+        "updateBy": "admin",
+        "roleCode": "admin",
+        "roleName": "管理员",
+        "description": "管理员",
+        "updateTime": "2019-05-20 11:40:26",
+        "id": "f6817f48af4fb3af11b9e8bf182f618b"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2021-04-07 14:54:04",
+        "updateBy": null,
+        "roleCode": "20210407",
+        "roleName": "思聪",
+        "description": null,
+        "updateTime": null,
+        "id": "f6ae6fa5b2bab924f316dbf952477cd6"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-12-12 21:17:03",
+        "updateBy": null,
+        "roleCode": "sms-softpone",
+        "roleName": "短信-话机",
+        "description": "短信所有角色+通话记录",
+        "updateTime": null,
+        "id": "fda983f21bd4da975396dc6595ce5e9a"
+    },
+    {
+        "createBy": "admin",
+        "createTime": "2022-11-16 21:35:40",
+        "updateBy": null,
+        "roleCode": "sms_dev_administrator",
+        "roleName": "短信开发人员",
+        "description": "短信开发人员的角色",
+        "updateTime": null,
+        "id": "fe3f12b7205547e2a56078f477184561"
+    }
+]
